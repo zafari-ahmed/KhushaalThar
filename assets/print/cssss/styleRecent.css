@@ -1,0 +1,201 @@
+/*Basic Structure */
+body{
+
+}
+body a{
+    color:#333;
+    text-decoration: none;
+}
+body a:hover, body a:focus{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5{
+    margin-bottom:10px;
+    margin-top:5px;
+}
+p{
+    margin-bottom:5px;
+}
+.pBreak {page-break-after: always;}
+p.small{
+    font-size:12px;
+}
+p.regular{
+    font-size:15px;
+}
+p.large{
+    font-size: 18px;
+}
+body ul{
+    padding:0;
+    list-style: none;
+}
+.hide{
+    display:none;
+}
+.imgResponsive{
+    display:inline-block;
+}
+.imgResponsive img{
+    width:100%;
+}
+.hidden-desktop{
+    display:none;
+}
+.block{
+    display:block;
+}
+.center{
+    text-align:center;
+}
+.margin-15{
+    margin-bottom:15px;
+}
+.margin-20{
+    margin-bottom:20px;
+}
+.inline{
+    display:inline-block;
+    vertical-align: middle;
+}
+.hidden-mobile{
+    display:inline-block;
+}
+.pad-15{
+    padding:0px 15px;
+}
+/*End of Basic Structure */
+.heading{
+    display:inline-block;
+    width:100%;
+    margin-bottom:20px;
+}
+.heading h1{
+    font-size:20px;
+    margin-top:20px;
+    font-weight:bold;
+}
+.heading h2{
+    float:right;
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+ul.nic{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+ul.nic li{
+    float:left;
+    width:9.09%;
+    border-left:1px solid #333;
+    display:list-item;
+}
+.table > tbody > tr > td{
+    vertical-align: middle;
+    height: 45px;
+}
+.table-bordered > tbody > tr > td {
+    border: 1px solid #333;
+    font-size: 15px;
+    padding: 2px 5px;
+}
+.table > tbody > tr > td {
+    vertical-align: middle;
+    height: 30px;
+}
+
+
+/*card css */
+.card{
+    background-image:url(../images/card_bg.png);
+    height:1013px;
+    width:638px;
+    background-size:cover;
+    background-position: center;
+    border-radius: 30px;
+    border: 1px solid #46c3b6;
+    padding: 15px;
+}
+.logo{
+
+}
+.formHeading{
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom:10px;
+}
+.profilePic img{
+    width: 160px;
+    margin-bottom:5px;
+    float: right;
+    height: 175px;
+    object-fit: cover;
+}
+.logo img{
+    width:150px;
+    float: right;
+}
+.logo h2{
+    display:inline-block;
+    font-weight:bold;
+    font-size:25px;
+}
+.logo span{
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.profilePic{
+    float: right;
+}
+.card .profilePic{
+    margin-top:90px;
+}
+.card .profilePic img{
+    border-radius:50%;
+    width: 210px;
+    height: 210px;
+}
+.card .profileInfo{
+    margin-top:90px;
+}
+.card .profileInfo label{
+    color:#fff;
+    font-size:30px;
+}
+.card .profileInfo p{
+    color:#fff;
+    font-size:20px;
+}
+.card .info{
+    margin-bottom:15px;
+    border-bottom:1px dotted #fff;
+}
+.toRight{
+    text-align: right;
+}
+.someAttr{
+    display:block;
+}
+.attrSpan{
+    display: inline-block;
+    border: 1px solid #000;
+    padding:5px 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.someAttr label{
+    font-size:13px;
+    vertical-align: top;
+}
+.someAttr p{
+    display:inline;
+    margin-left:5px;
+    font-size:12px;
+}
+.someAttr span{
+    display:block;
+}

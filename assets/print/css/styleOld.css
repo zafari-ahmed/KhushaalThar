@@ -1,0 +1,103 @@
+/*Basic Structure */
+body{
+
+}
+body a{
+    color:#333;
+    text-decoration: none;
+}
+body a:hover, body a:focus{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5{
+    margin-bottom:10px;
+    margin-top:5px;
+}
+p{
+    margin-bottom:5px;
+}
+p.small{
+    font-size:12px;
+}
+p.regular{
+    font-size:15px;
+}
+p.large{
+    font-size: 18px;
+}
+body ul{
+    padding:0;
+    list-style: none;
+}
+.hide{
+    display:none;
+}
+.imgResponsive{
+    display:inline-block;
+}
+.imgResponsive img{
+    width:100%;
+}
+.hidden-desktop{
+    display:none;
+}
+.block{
+    display:block;
+}
+.center{
+    text-align:center;
+}
+.margin-15{
+    margin-bottom:15px;
+}
+.margin-20{
+    margin-bottom:20px;
+}
+.inline{
+    display:inline-block;
+    vertical-align: middle;
+}
+.hidden-mobile{
+    display:inline-block;
+}
+.pad-15{
+    padding:0px 15px;
+}
+/*End of Basic Structure */
+.heading{
+    display:inline-block;
+    width:100%;
+    margin-bottom:20px;
+}
+.heading h1{
+    font-size:20px;
+    margin-top:20px;
+    font-weight:bold;
+}
+.heading h2{
+    float:right;
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+ul.nic{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+ul.nic li{
+    float:left;
+    width:9.09%;
+    border-left:1px solid #333;
+    display:list-item;
+}
+.table > tbody > tr > td{
+    vertical-align: middle;
+    height: 45px;
+}
+.table-bordered > tbody > tr > td{
+    border:1px solid #333;
+    font-size: 10px!important;
+    height: 30px;
+    padding: 1px 8px!important;
+}
